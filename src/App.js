@@ -1,6 +1,15 @@
 import React, {
   Component
 } from 'react';
+
+import { BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import { browserHistory } from 'react-router';
+
+import HomePage from './pages/homePage.js';
+import About from './pages/aboutPage.js';
+import NavBar from './headerComponent/navBar.js';
+import Footer from './footerComponent/footer.js';
+
 import background from './backgroundImage.jpg';
 
 import './App.css';
@@ -9,31 +18,14 @@ class App extends Component {
   render() {
     return (
       <div id = "app">
-        <header>
-          <div className = "welcome">
-            <div className = "wrap">
-              <div className = "wrapper">
-                <h1 className = "App-title"> Paul Mackey </h1>
-                <h3> Web Developer </h3>
-                <h4> Irish Web Headquarters </h4>
-              </div>
-            </div>
-          </div>
-        </header>
-        <main>
-        <div className="container">
-<div className="row">
-<div className="col-4">
-</div>
-
-<div className="col-4">
-</div>
-
-<div className="col-4">
-</div>
-</div>
-</div>
-        </main>
+      <Router>
+        <div>
+          <NavBar />
+          <Route name="home" exact path="/" component={HomePage} />
+           <Route path="/about" component={About} />
+          <Footer />
+        </div>
+</Router>
       </div>
 
 
