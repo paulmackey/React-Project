@@ -9,7 +9,8 @@ class HomePage extends Component {
 
       <h1 className="mt-3">Paul Mackey</h1>
       <p>Web Developer</p>
-      <p>Irish Web Headquarters</p>
+      <p className="">Irish Web Headquarters</p>
+      <p className="text-emoji">\ (•◡•) /</p>
       </div>
       </div>
     )

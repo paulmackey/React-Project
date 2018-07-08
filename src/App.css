@@ -3,7 +3,7 @@ body{
   color:rgb(96, 125, 139);
 }
 p{
-  font-size:14px;
+  font-size:15px;
 }
 h1,h2,h3,p{
   color:rgb(96, 125, 139);
@@ -20,6 +20,15 @@ line-height: 4rem;
 margin: 1.5rem 0;
 font-weight: 300;
 }
+
+
+.text-emoji {
+
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+
 header,footer{
   display: block;
   /* background:rgba(0,0,0,0.5); */
@@ -36,6 +45,7 @@ header,footer{
     right: 0;
     bottom: 0;
       /* background: url(./bg.jpg) no-repeat; */
+      background: #efebe9;
 }
 
 #headerButtons {
@@ -111,4 +121,5 @@ color: #fff;
     margin-left: 250px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
+
 }
