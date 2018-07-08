@@ -10,9 +10,6 @@ import About from './pages/aboutPage.js';
 import NavBar from './headerComponent/navBar.js';
 import Footer from './footerComponent/footer.js';
 import Projects from './pages/projectPage.js';
-
-
-
 import './App.css';
 
 class App extends Component {
@@ -40,11 +37,8 @@ class App extends Component {
 
             <Footer />
           </div>
-</Router>
+      </Router>
       </div>
-
-
-
     );
   }
 }
