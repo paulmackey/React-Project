@@ -48,6 +48,16 @@ header,footer{
       background: #efebe9;
 }
 
+.social-icons {
+    padding: .25rem 0;
+    font-size: 3rem;
+}
+
+.social-icons a {
+    padding: 0 .625rem;
+}
+
+
 #headerButtons {
   list-style-type: none;
   margin: 0;
