@@ -10,7 +10,7 @@ import About from './pages/aboutPage.js';
 import NavBar from './headerComponent/navBar.js';
 import Footer from './footerComponent/footer.js';
 
-import background from './backgroundImage.jpg';
+
 
 import './App.css';
 
@@ -21,8 +21,10 @@ class App extends Component {
       <Router>
         <div>
           <NavBar />
+          <div className="main">
           <Route name="home" exact path="/" component={HomePage} />
            <Route path="/about" component={About} />
+           </div>
           <Footer />
         </div>
 </Router>
