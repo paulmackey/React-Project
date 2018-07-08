@@ -20,7 +20,7 @@ header,footer{
     left: 0;
     right: 0;
     bottom: 0;
-      background: url(./bg.jpg) no-repeat;
+      /* background: url(./bg.jpg) no-repeat; */
 }
 
 #headerButtons {
@@ -35,7 +35,7 @@ header,footer{
 }
 
 .navButton a{
-  color:#fff;
+  color:#000;
   padding:10px;
 }
 footer {
@@ -54,25 +54,25 @@ bottom:0;
     margin-bottom: 40px;
     -webkit-transition: top 4s ease;
     transition: top 4s ease;
-    text-align: center;
+
     padding: 0 100;
     cursor: pointer;
-    text-align:center;
-    color:#fff;
+
+    color:#000;
 }
 
 
 .sidenav {
     height: 100%;
-  width: 25%;
+  width: 250px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-background: rgba(0,0,0,0.5);
+background: #2f4154;
     overflow-x: hidden;
     padding-top: 20px;
-    text-align: right;
+    text-align: center;
 padding-right: 30px;
 }
 
@@ -83,13 +83,17 @@ color: #fff;
 
     display: block;
 }
+.logo{
+  border: .5rem solid rgba(255,255,255,.2);
+  max-height: 10rem;
+}
 
 .sidenav a:hover {
     color: #f1f1f1;
 }
 
 .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+    margin-left: 250px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
 }

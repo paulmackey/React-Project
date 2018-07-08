@@ -9,6 +9,7 @@ import HomePage from './pages/homePage.js';
 import About from './pages/aboutPage.js';
 import NavBar from './headerComponent/navBar.js';
 import Footer from './footerComponent/footer.js';
+import Projects from './pages/projectPage.js';
 
 
 
@@ -22,11 +23,23 @@ class App extends Component {
         <div>
           <NavBar />
           <div className="main">
-          <Route name="home" exact path="/" component={HomePage} />
-           <Route path="/about" component={About} />
-           </div>
-          <Footer />
-        </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="well  m-5">
+                <div className="card-body">
+              <Route name="home" exact path="/" component={HomePage} />
+               <Route path="/about" component={About} />
+               <Route path="/projects" component={Projects} />
+               </div>
+               </div>
+               </div>
+               </div>
+               </div>
+             </div>
+
+            <Footer />
+          </div>
 </Router>
       </div>
 
