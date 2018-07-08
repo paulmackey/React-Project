@@ -1,28 +1,88 @@
-.App {
-  text-align: center;
+#app {
+     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+header {
+    background: url('./backgroundImage.jpg');
+        background-size: auto auto;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+
+header {
+    color: #fff;
+    padding:60px 0;
 }
+
+header .wrapper {
+    font-weight: 100;
+
+    letter-spacing: 5px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    -webkit-transition: top 4s ease;
+    transition: top 4s ease;
+    text-align: center;
+    padding: 0 100;
+    cursor: pointer;
+}
+
 
 .App-title {
   font-size: 1.5em;
+  margin-top:0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+.container {
+    width: 1170px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
