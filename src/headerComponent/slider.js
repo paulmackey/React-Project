@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import homeIcon from "../home.png";
 import aboutIcon from "../user.png";
 import projects from "../folder.png";
+import {Animated} from "react-animated-css";
 
 class SimpleSlider extends Component {
   render() {
@@ -23,6 +24,7 @@ class SimpleSlider extends Component {
           <img src={logo} />
 
           <aside>
+            <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
             <h1 className="mt-3">Paul Mackey</h1>
             <p>Web Developer</p>
             <p className="">Irish Web Headquarters</p>
@@ -55,7 +57,7 @@ class SimpleSlider extends Component {
             <Link to="/projects">
               <img src={projects} /> Projects
             </Link>
-
+</Animated>
           </aside>
 
         </div>

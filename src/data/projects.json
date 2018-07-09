@@ -1,0 +1,47 @@
+[
+	{
+		"title": "Visit East Clare",
+		"description": "Central hub for businesses in East Clare to promote their business and events",
+		"url": "http://visitclare.net/",
+		"thumbnail": "../images/vec-logo.jpg",
+		"status": "Complete",
+				"colour" : "purple",
+		"gallery": [
+
+		]
+	},
+
+	{
+		"title": "Mr Binman",
+		"description": "An Irish owned waste recycling organisation servicing over 37000 household customers and 3500 commercial clients in Ireland.",
+		"url": "https://www.mrbinman.com/",
+	"thumbnail": "../images/mrbinman.png",
+		"status": "Complete",
+			"colour" : "purple",
+		"gallery": [
+		]
+	},
+
+	{
+		"title": "Switching Rooms",
+		"description": "Switching Rooms acts as an introductory agent for students to easily source accomodation in their new college area and allows our users to swap rooms with similar students heading in the opposite direction",
+		"url": "https://www.switchingrooms.ie",
+	"thumbnail": "../images/switching-rooms.jpg",
+		"status": "Complete",
+			"colour" : "purple",
+		"gallery": [
+		]
+	},
+	{
+		"title": "Complete Interiors",
+		"description": "Interior Design Specialists",
+		"url": "https://www.switchingrooms.ie",
+	"thumbnail": "../images/complete-interiors.jpg",
+		"status": "Pending",
+		"colour" : "orange",
+		"gallery": [
+		]
+	}
+
+
+]

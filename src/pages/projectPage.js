@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "../headerComponent/topNav.js";
+import data from "../data/projects.json";
+import {Animated} from "react-animated-css";
 
 class projectPage extends Component {
   render() {
@@ -9,39 +11,31 @@ class projectPage extends Component {
           <div className="row">
             <NavBar />
             <div className="col-sm-12">
-            <h1 className="w-100">Projects</h1>
+              <h1 className="w-100">Projects</h1>
             </div>
+            {
+              data.map(function(data) {
+              return (
+                <div className="col-sm-4">
+                <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+                  <div className="mt-5">
+                    <div className="card p-3">
+                    <div className={'ribbon ribbon-top-right ' + data.colour}>
+                        <span className={data.colour}>{data.status} </span>
+                        </div>
+                      <img className="card-img-top" src={ data.thumbnail }></img>
+                      <div className="card-body">
 
-            <div className="col-sm-4 project-wrap">
-              <div className="mt-5">
-                <div className="card">
-                  <div className="card-body">
-                    <p>Sample Project</p>
+                        <h3 className="card-title">{data.title}</h3>
+                        <p className="card-text">{data.description}</p>
+                        <p><a href={data.url}>View <i className="fa fa-link"></i></a></p>
+                      </div>
+                    </div>
                   </div>
+                  </Animated>
                 </div>
-              </div>
-            </div>
-
-            <div className="col-sm-4 project-wrap">
-              <div className="mt-5">
-                <div className="card">
-                  <div className="card-body">
-                    <p>Sample Project</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-sm-4 project-wrap">
-              <div className="mt-5">
-                <div className="card">
-                  <div className="card-body">
-                    <p>Sample Project</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+              );
+            })}
           </div>
         </div>
       </div>
