@@ -21,22 +21,22 @@ class App extends Component {
         <div>
           <NavBar />
           <main id="page-wrap">
-          <div className="main">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
-                <div className="well  m-5">
-                <div className="card-body">
-              <Route name="home" exact path="/" component={HomePage} />
-               <Route path="/about" component={About} />
-               <Route path="/projects" component={Projects} />
-               </div>
-               </div>
-               </div>
-               </div>
-               </div>
-             </div>
-</main>
+            <div className="main">
+              <div className="container">
+                <div className="row">
+                  <div className="col-sm-12">
+                    <div className="well  m-5">
+                      <div className="card-body">
+                        <Route name="home" exact path="/" component={HomePage} />
+                        <Route path="/about" component={About} />
+                        <Route path="/projects" component={Projects} />
+                     </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
             <Footer />
           </div>
       </Router>
