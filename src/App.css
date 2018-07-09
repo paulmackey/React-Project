@@ -33,7 +33,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #e3e3e3;
+  background: #c3c3c2;
   overflow:auto;
 }
 
@@ -62,7 +62,7 @@ aside {
   margin-bottom: 40px;
   -webkit-transition: top 4s ease;
   transition: top 4s ease;
-  padding: 0 100;
+  /* padding: 0 100; */
 
   color: #000;
 }
