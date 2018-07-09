@@ -1,15 +1,18 @@
 import React, { Component } from "react";
 
-import Slider from "react-slick";
-import logo from "../bg.jpg";
-import { Link } from "react-router-dom";
-import homeIcon from "../home.png";
+import Slider from "react-slick"; // Include slick slider
+import logo from "../bg.jpg"; //include background logo
+import { Link } from "react-router-dom"; // need this for going to different links ie /projects or /about
+import homeIcon from "../home.png"; //include nav icons
 import aboutIcon from "../user.png";
 import projects from "../folder.png";
-import {Animated} from "react-animated-css";
+import {Animated} from "react-animated-css"; //inlude animate.css
 
 class SimpleSlider extends Component {
+
   render() {
+
+    //slider settings
     var settings = {
       dots: true,
       infinite: true,
@@ -17,6 +20,7 @@ class SimpleSlider extends Component {
       slidesToShow: 1,
       slidesToScroll: 1
     };
+
     return (
       <Slider {...settings}>
 
@@ -24,6 +28,7 @@ class SimpleSlider extends Component {
           <img src={logo} />
 
           <aside>
+          
             <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
             <h1 className="mt-3">Paul Mackey</h1>
             <p>Web Developer</p>

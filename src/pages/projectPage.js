@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import NavBar from "../headerComponent/topNav.js";
 import data from "../data/projects.json";
-import {Animated} from "react-animated-css";
+import {Animated} from "react-animated-css"; //include animate.css
 
 class projectPage extends Component {
+
   render() {
     return (
       <div className="wrapper about">
@@ -14,21 +15,22 @@ class projectPage extends Component {
               <h1 className="w-100">Projects</h1>
             </div>
             {
+
               data.map(function(data) {
+
               return (
                 <div className="col-sm-4">
                 <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
-                  <div className="mt-5">
+                  <div className="mt-5 project-wrap">
                     <div className="card p-3">
                     <div className={'ribbon ribbon-top-right ' + data.colour}>
                         <span className={data.colour}>{data.status} </span>
                         </div>
-                      <img className="card-img-top" src={ data.thumbnail }></img>
+                      <img className="card-img-top py-5" src={ data.thumbnail }></img>
                       <div className="card-body">
-
                         <h3 className="card-title">{data.title}</h3>
                         <p className="card-text">{data.description}</p>
-                        <p><a href={data.url}>View <i className="fa fa-link"></i></a></p>
+                        <p><a href={data.url}>View <i className="fa fa-sign-in-alt"></i></a></p>
                       </div>
                     </div>
                   </div>
@@ -36,6 +38,7 @@ class projectPage extends Component {
                 </div>
               );
             })}
+
           </div>
         </div>
       </div>

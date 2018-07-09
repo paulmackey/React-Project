@@ -23,6 +23,28 @@
 	},
 
 	{
+		"title": "Ex-Demo Phones",
+		"description": "Seller of Used / New Demo phones",
+		"url": "http://exdemophones.com/",
+	"thumbnail": "../images/ex-demo-phones.jpg",
+		"status": "Complete",
+		"colour" : "purple",
+		"gallery": [
+		]
+	},
+
+	{
+		"title": "Energy Change",
+		"description": "Custom E-Learning site tailored for any company",
+		"url": "https://www.energychange.ie/",
+	"thumbnail": "../images/LIT_Logo.png",
+		"status": "Complete",
+		"colour" : "purple",
+		"gallery": [
+		]
+	},
+
+	{
 		"title": "Switching Rooms",
 		"description": "Switching Rooms acts as an introductory agent for students to easily source accomodation in their new college area and allows our users to swap rooms with similar students heading in the opposite direction",
 		"url": "https://www.switchingrooms.ie",
@@ -37,6 +59,16 @@
 		"description": "Interior Design Specialists",
 		"url": "https://www.switchingrooms.ie",
 	"thumbnail": "../images/complete-interiors.jpg",
+		"status": "Pending",
+		"colour" : "orange",
+		"gallery": [
+		]
+	},
+	{
+		"title": "Loughmore Castleiney GAA",
+		"description": "Football / Hurling Club",
+		"url": "#",
+	"thumbnail": "../images/loughmore-logo.png",
 		"status": "Pending",
 		"colour" : "orange",
 		"gallery": [

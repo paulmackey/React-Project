@@ -251,7 +251,13 @@ footer {
 /** Projects **/
 
 .project-wrap .card{
-  min-height:200px;
+min-height: 350px;
+}
+
+.card-img-top{
+  width: auto;
+height: auto;
+object-fit: contain;
 }
 
 
@@ -326,6 +332,16 @@ footer {
     top: 30px;
     transform: rotate(45deg);
 }
+
+ .img-part {
+    border-radius: 5px;
+    margin: 0px;
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  }
 /* ================ MEDIA QUERY - SIZE = 1024 ======================= */
 
 @media screen and (min-width: 1024px) and (max-width: 1024px) {}
