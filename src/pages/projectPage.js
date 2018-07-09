@@ -30,7 +30,7 @@ class projectPage extends Component {
                       <div className="card-body">
                         <h3 className="card-title">{data.title}</h3>
                         <p className="card-text">{data.description}</p>
-                        <p><a href={data.url}>View <i className="fa fa-sign-in-alt"></i></a></p>
+                        <p className="text-right"><a href={data.url}>View <i className="fa fa-sign-in-alt"></i></a></p>
                       </div>
                     </div>
                   </div>
