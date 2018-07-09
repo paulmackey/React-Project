@@ -37,6 +37,10 @@ h1 {
   overflow:auto;
 }
 
+body{
+    background: #c3c3c2;
+    
+}
 aside {
   position: absolute;
   top: 110px;
