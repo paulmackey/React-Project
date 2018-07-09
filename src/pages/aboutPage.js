@@ -10,7 +10,7 @@ class aboutPage extends Component {
             <NavBar />
 
             <div className="col-sm-12">
-              <div className="well  m-5">
+              <div className="well mt-5">
                 <div className="card">
                   <div className="card-body">
                     <h1>About me</h1>
