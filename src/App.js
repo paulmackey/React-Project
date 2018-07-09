@@ -5,6 +5,7 @@ import React, {
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import { browserHistory } from 'react-router';
 
+
 import HomePage from './pages/homePage.js';
 import About from './pages/aboutPage.js';
 import NavBar from './headerComponent/navBar.js';
@@ -19,6 +20,7 @@ class App extends Component {
       <Router>
         <div>
           <NavBar />
+          <main id="page-wrap">
           <div className="main">
           <div className="container">
             <div className="row">
@@ -34,7 +36,7 @@ class App extends Component {
                </div>
                </div>
              </div>
-
+</main>
             <Footer />
           </div>
       </Router>

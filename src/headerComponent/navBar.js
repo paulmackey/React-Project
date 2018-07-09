@@ -4,10 +4,12 @@ import homeIcon from '../home.png';
 import aboutIcon from '../user.png';
 import logo from '../profiler.jpg';
 import projects from '../folder.png';
+import { pushRotate as Menu } from 'react-burger-menu'
 
 class NavBar extends Component {
   render() {
     return (
+      <Menu noOverlay pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
     <div className="sidenav">
 
         <ul id="headerButtons">
@@ -16,6 +18,7 @@ class NavBar extends Component {
               <li className="navButton"><Link to="/projects"><img src={projects}></img> Projects</Link></li>
         </ul>
       </div>
+      </Menu>
     )
   }
 }
