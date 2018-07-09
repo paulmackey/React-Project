@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import Slider from "react-slick";
 import logo from "../bg.jpg";
 import { Link } from "react-router-dom";
@@ -17,12 +18,15 @@ class SimpleSlider extends Component {
     };
     return (
       <Slider {...settings}>
+
         <div>
           <img src={logo} />
+
           <aside>
             <h1 className="mt-3">Paul Mackey</h1>
             <p>Web Developer</p>
             <p className="">Irish Web Headquarters</p>
+
             <div className="social-icons">
               <a
                 target="_blank"
@@ -31,6 +35,7 @@ class SimpleSlider extends Component {
               >
                 <i className="fa fa-github" />
               </a>
+
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -38,16 +43,21 @@ class SimpleSlider extends Component {
               >
                 <i className="fa fa-linkedin" />
               </a>
+
             </div>
+
             <p className="text-emoji">\ (•◡•) /</p>
 
             <Link to="/about">
               <img src={aboutIcon} /> About Me
             </Link>
+
             <Link to="/projects">
               <img src={projects} /> Projects
             </Link>
+
           </aside>
+
         </div>
       </Slider>
     );

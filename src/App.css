@@ -24,6 +24,7 @@ h1 {
   font-size: 4rem;
   font-weight: 700;
   line-height: 4rem;
+  margin-top: 5rem;
 }
 
 #app {
@@ -247,6 +248,11 @@ footer {
   bottom: 0;
 }
 
+/** Projects **/
+
+.project-wrap .card{
+  min-height:200px;
+}
 /* ================ MEDIA QUERY - SIZE = 1024 ======================= */
 
 @media screen and (min-width: 1024px) and (max-width: 1024px) {}

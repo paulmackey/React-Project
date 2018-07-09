@@ -8,16 +8,38 @@ class projectPage extends Component {
         <div className="container">
           <div className="row">
             <NavBar />
-            <div className="col-sm-12">
-              <div className="well mt-5">
+            <h1 className="w-100">Projects</h1>
+
+            <div className="col-sm-4 project-wrap">
+              <div className="mt-5">
                 <div className="card">
                   <div className="card-body">
-                    <h1>Projects</h1>
-                    <p>Sample Projects</p>
+                    <p>Sample Project</p>
                   </div>
                 </div>
               </div>
             </div>
+
+            <div className="col-sm-4 project-wrap">
+              <div className="mt-5">
+                <div className="card">
+                  <div className="card-body">
+                    <p>Sample Project</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-4 project-wrap">
+              <div className="mt-5">
+                <div className="card">
+                  <div className="card-body">
+                    <p>Sample Project</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

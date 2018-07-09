@@ -9,6 +9,7 @@ import NavBar from "./headerComponent/navBar.js";
 
 import Footer from "./footerComponent/footer.js";
 import Projects from "./pages/projectPage.js";
+
 import "./App.css";
 
 class App extends Component {
