@@ -90,6 +90,9 @@ nav.top-nav li {
   display: inline;
 }
 
+.selected {
+    background: #9e9e9e;
+  }
 nav.top-nav li {
   float: left;
 }

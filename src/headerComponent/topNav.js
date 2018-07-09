@@ -3,6 +3,7 @@ import homeIcon from "../home.png";
 import aboutIcon from "../user.png";
 import projects from "../folder.png";
 import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom'
 
 class topNav extends Component {
   render() {
@@ -13,19 +14,19 @@ class topNav extends Component {
             <nav className="top-nav">
               <ul id="headerButtons">
                 <li className="navButton">
-                  <Link to="/">
+                  <NavLink exact activeClassName="selected" to="/">
                     <img src={homeIcon} />
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="navButton">
-                  <Link to="/about">
+                  <NavLink activeClassName="selected" to="/about">
                     <img src={aboutIcon} />
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="navButton">
-                  <Link to="/projects">
+                  <NavLink activeClassName="selected" to="/projects">
                     <img src={projects} />
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </nav>
