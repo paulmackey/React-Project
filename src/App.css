@@ -44,6 +44,15 @@ margin: auto;
 text-align: center;
 width: 100%;
 }
+.slick-slide aside img {
+    display: inline-block;
+    margin: 0 13px;
+}
+
+.slick-slide aside a{
+  color:#fff;
+  text-decoration:none;
+}
 .wrapper {
   font-weight: 100;
   font-size: 3em;
@@ -87,7 +96,8 @@ header {
 /* Color/shape of burger icon bars */
 
 .bm-burger-bars {
-  background: #373a47;
+  /* background: #373a47; */
+  background:#fff;
 }
 
 /* Position and sizing of clickable cross button */

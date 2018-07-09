@@ -4,13 +4,13 @@ import homeIcon from '../home.png';
 import aboutIcon from '../user.png';
 import logo from '../profiler.jpg';
 import projects from '../folder.png';
-import { slide as Menu } from 'react-burger-menu'
+import { push as Menu } from 'react-burger-menu'
 
 class NavBar extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      menuOpen: true
+      menuOpen: false
     }
   }
 

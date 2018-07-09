@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
 import logo from '../bg.jpg';
+import { Link } from 'react-router-dom';
+import homeIcon from '../home.png';
+import aboutIcon from '../user.png';
+import projects from '../folder.png';
 
 class SimpleSlider extends Component {
   render() {
@@ -24,6 +28,10 @@ class SimpleSlider extends Component {
   <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/paul-mackey-25543098/" ><i className="fa fa-linkedin"></i></a>
   </div>
         <p className="text-emoji">\ (•◡•) /</p>
+
+        <Link to="/about"><img src={aboutIcon}></img> About Me</Link>
+            <Link to="/projects"><img src={projects}></img> Projects</Link>
+
         </aside>
         </div>
       </Slider>
