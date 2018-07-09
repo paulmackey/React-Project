@@ -13,7 +13,7 @@ class projectPage extends Component {
                 <div className="card">
                   <div className="card-body">
                     <h1>Projects</h1>
-                    <p>This project is built using ReactJS</p>
+                    <p>Sample Projects</p>
                   </div>
                 </div>
               </div>
