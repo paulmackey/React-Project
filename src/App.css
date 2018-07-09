@@ -3,6 +3,9 @@
 
 /** GENERAL **/
 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 body {
   font-family: 'Roboto', sans-serif;
   color: rgb(96, 125, 139);
@@ -12,7 +15,7 @@ p {
   font-size: 15px;
 }
 
-h1, h2, h3, p {
+aside h1, aside h2,aside h3,aside  p {
   /* color:rgb(96, 125, 139); */
   color: #fff;
 }
@@ -34,6 +37,13 @@ h1 {
   background: #b4bad2;
 }
 
+aside{
+  position: absolute;
+top: 110px;
+margin: auto;
+text-align: center;
+width: 100%;
+}
 .wrapper {
   font-weight: 100;
   font-size: 3em;

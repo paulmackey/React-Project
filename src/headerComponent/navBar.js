@@ -4,7 +4,7 @@ import homeIcon from '../home.png';
 import aboutIcon from '../user.png';
 import logo from '../profiler.jpg';
 import projects from '../folder.png';
-import { pushRotate as Menu } from 'react-burger-menu'
+import { slide as Menu } from 'react-burger-menu'
 
 class NavBar extends Component {
   constructor (props) {
