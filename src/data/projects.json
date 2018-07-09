@@ -88,6 +88,39 @@
 	}
 	,
 	{
+		"title": "ERS Recruitment",
+		"description": "ERS is a niche provider of Program/Project Management; Business Analysis & Full IT Stack contract & permanent recruitment services",
+		"url": "http://www.ersrecruitment.com/",
+	"thumbnail": "../images/ers-recruitment-logo.jpg",
+		"status": "Completed",
+		"colour" : "purple",
+		"gallery": [
+		]
+	}
+	,
+	{
+		"title": "Construction Workers Skills Register",
+		"description": "The Construction Worker Skills Register encourages engagement in training and skills development within the building sector.",
+		"url": "https://www.constructionworkerskillsregister.ie/",
+	"thumbnail": "../images/cwsr-logo.jpg",
+		"status": "Completed",
+		"colour" : "purple",
+		"gallery": [
+		]
+	}
+	,
+	{
+		"title": "IPEYE2",
+		"description": "A cross-border exchange programme which gives new or aspiring entrepreneurs the chance to learn from experienced entrepreneurs running small businesses in other Participating Countries.",
+		"url": "http://www.ipeye2.eu/",
+	"thumbnail": "../images/ipeye2-logo.png",
+		"status": "Completed",
+		"colour" : "purple",
+		"gallery": [
+		]
+	}
+	,
+	{
 		"title": "Loughmore Castleiney GAA",
 		"description": "Football / Hurling Club",
 		"url": "#",
