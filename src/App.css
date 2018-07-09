@@ -85,6 +85,23 @@ header {
 
 /* Position and sizing of burger button */
 
+nav.top-nav li {
+    display: inline;
+}
+
+nav.top-nav li {
+    float: left;
+}
+
+nav.top-nav a {
+    display: block;
+  margin: 0 10px;
+}
+
+nav.top-nav #headerButtons{
+  float: right;
+}
+
 .bm-burger-button {
   position: fixed;
   width: 36px;
