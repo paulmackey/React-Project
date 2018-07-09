@@ -25,8 +25,8 @@ class App extends Component {
               <div className="container">
                 <div className="row">
                   <div className="col-sm-12">
-                    <div className="well  m-5">
-                      <div className="card-body">
+                    <div className="well">
+                      <div className="">
                         <Route name="home" exact path="/" component={HomePage} />
                         <Route path="/about" component={About} />
                         <Route path="/projects" component={Projects} />
