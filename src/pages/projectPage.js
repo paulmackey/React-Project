@@ -8,7 +8,9 @@ class projectPage extends Component {
         <div className="container">
           <div className="row">
             <NavBar />
+            <div className="col-sm-12">
             <h1 className="w-100">Projects</h1>
+            </div>
 
             <div className="col-sm-4 project-wrap">
               <div className="mt-5">
