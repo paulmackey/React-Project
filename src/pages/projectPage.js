@@ -22,7 +22,7 @@ class projectPage extends Component {
                 <div className="col-sm-4">
                 <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
                   <div className="mt-5 project-wrap">
-                    <div className="card p-3">
+                    <div className="card p-3 shadow-lg">
                     <div className={'ribbon ribbon-top-right ' + data.colour}>
                         <span className={data.colour}>{data.status} </span>
                         </div>
