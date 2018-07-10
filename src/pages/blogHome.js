@@ -43,9 +43,10 @@ class BlogHome extends Component {
     if (this.state.loaded) {
       return (
         <div className="wrapper about">
+          <NavBar />
           <div className="container">
             <div className="row">
-              <NavBar />
+
               <div className="col-sm-12">
                 <h1 className="w-100">Blog Posts</h1>
               </div>

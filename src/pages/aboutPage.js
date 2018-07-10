@@ -4,11 +4,11 @@ import NavBar from "../headerComponent/topNav.js";
 class aboutPage extends Component {
   render() {
     return (
+
       <div className="wrapper about">
+          <NavBar />
         <div className="container">
           <div className="row">
-            <NavBar />
-
             <div className="col-sm-12">
               <h1>About me</h1>
             </div>

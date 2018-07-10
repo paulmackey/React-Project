@@ -8,9 +8,10 @@ class projectPage extends Component {
   render() {
     return (
       <div className="wrapper about">
+      <NavBar />
         <div className="container">
           <div className="row">
-            <NavBar />
+            
             <div className="col-sm-12">
               <h1 className="w-100">Projects</h1>
             </div>
@@ -30,8 +31,11 @@ class projectPage extends Component {
                       <div className="card-body">
                         <h3 className="card-title">{data.title}</h3>
                         <p className="card-text">{data.description}</p>
-                        <p className="text-right"><a href={data.url}>View <i className="fa fa-link"></i></a></p>
+
                       </div>
+                      <div className="card-footer text-right">
+                  <a className="btn btn-info" href={data.url}>Visit Site</a>
+                    </div>
                     </div>
                   </div>
                   </Animated>

@@ -7,8 +7,10 @@ import { NavLink } from 'react-router-dom'
 import blogIcon from "../blog.png";
 
 class topNav extends Component {
+
   render() {
     return (
+      <div className="top">
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
@@ -38,6 +40,7 @@ class topNav extends Component {
             </nav>
           </div>
         </div>
+      </div>
       </div>
     );
   }

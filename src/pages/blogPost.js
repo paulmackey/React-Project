@@ -6,6 +6,7 @@ import NavBar from "../headerComponent/topNav.js";
 const butter = Butter("ba90a6c951de625d6bd4f9da7255f12cfd228ded");
 
 class BlogPost extends Component {
+
   constructor(props) {
     super(props);
 
@@ -25,14 +26,16 @@ class BlogPost extends Component {
   }
 
   render() {
+
     if (this.state.loaded) {
       const post = this.state.post;
 
       return (
         <div className="wrapper about">
+            <NavBar />
           <div className="container">
             <div className="row">
-              <NavBar />
+
 
               <div className="col-sm-12">
                 <h1>{post.seo_title}</h1>
