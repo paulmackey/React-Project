@@ -85,7 +85,7 @@ class BlogHome extends Component {
         </div>
       );
     } else {
-      return <div>Loading...</div>;
+      return <div></div>;
     }
   }
 }
