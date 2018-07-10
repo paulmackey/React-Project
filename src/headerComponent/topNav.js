@@ -4,6 +4,7 @@ import aboutIcon from "../user.png";
 import projects from "../folder.png";
 import { Link } from "react-router-dom";
 import { NavLink } from 'react-router-dom'
+import blogIcon from "../blog.png";
 
 class topNav extends Component {
   render() {
@@ -26,6 +27,11 @@ class topNav extends Component {
                 <li className="navButton">
                   <NavLink activeClassName="selected" to="/projects">
                     <img src={projects} />
+                  </NavLink>
+                </li>
+                <li className="navButton">
+                  <NavLink activeClassName="selected" to="/blog">
+                    <img src={blogIcon} />
                   </NavLink>
                 </li>
               </ul>

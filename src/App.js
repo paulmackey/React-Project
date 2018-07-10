@@ -4,12 +4,16 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { browserHistory } from "react-router";
 
 import HomePage from "./pages/homePage.js";
+import BlogHome from "./pages/blogHome.js";
+
+
+
 import About from "./pages/aboutPage.js";
 import NavBar from "./headerComponent/navBar.js";
 
 import Footer from "./footerComponent/footer.js";
 import Projects from "./pages/projectPage.js";
-
+import BlogPost from "./pages/blogPost.js";
 import "./App.css";
 
 class App extends Component {
@@ -23,6 +27,9 @@ class App extends Component {
             <Route name="home" exact path="/" component={HomePage} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
+            <Route path="/blog" component={BlogHome} />
+            <Route path="/post/:slug" component={BlogPost} />
+
           </div>
         </Router>
       </div>

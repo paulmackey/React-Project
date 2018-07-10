@@ -11,14 +11,18 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 aside h1, aside h2, aside h3, aside p {
   /* color:rgb(96, 125, 139); */
   color: #fff;
 }
-
+.author{
+  font-size: 14px;
+  font-style:italic;
+  margin-bottom:15px;
+}
 h1 {
   font-family: Reem Kufi, sans-serif;
   font-size: 4rem;
@@ -39,7 +43,7 @@ h1 {
 
 body{
     background: #c3c3c2;
-    
+
 }
 aside {
   position: absolute;
@@ -258,6 +262,16 @@ footer {
 min-height: 350px;
 }
 
+.card-title{
+  margin-top:0px;
+  font-weight: 700;
+
+}
+
+.card-title a{
+  color: #000;
+  text-decoration: none !important;
+}
 .card-img-top{
   width: auto;
 height: auto;

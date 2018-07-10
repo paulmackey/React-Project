@@ -4,6 +4,7 @@ import homeIcon from "../home.png";
 import aboutIcon from "../user.png";
 import logo from "../profiler.jpg";
 import projects from "../folder.png";
+import blogIcon from "../blog.png";
 import { push as Menu } from "react-burger-menu";
 
 class NavBar extends Component {
@@ -13,7 +14,7 @@ class NavBar extends Component {
       menuOpen: false
     };
   }
-  
+
 
   // This keeps your state in sync with the opening/closing of the menu
   // via the default means, e.g. clicking the X, pressing the ESC key etc.
@@ -61,6 +62,12 @@ class NavBar extends Component {
             <li className="navButton">
               <Link to="/projects" onClick={() => this.closeMenu()}>
                 <img src={projects} /> Projects
+              </Link>
+            </li>
+
+            <li className="navButton">
+              <Link to="/blog" onClick={() => this.closeMenu()}>
+                <img src={blogIcon} /> Blog
               </Link>
             </li>
           </ul>
