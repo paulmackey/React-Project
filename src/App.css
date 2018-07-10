@@ -189,13 +189,15 @@ nav.top-nav #headerButtons {
   text-align: center;
 }
 
-#headerButtons li:not(:first-child) {
+ .bm-item-list #headerButtons li:not(:first-child) {
   text-align:left;
 }
 
-#headerButtons li:not(:first-child) img {
+.bm-item-list #headerButtons li:not(:first-child) img {
 margin-right:15px;
 }
+
+
 
 .navButton a {
   color: #fff;
