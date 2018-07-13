@@ -13,7 +13,7 @@ class projectPage extends Component {
           <div className="row">
             
             <div className="col-sm-12">
-              <h1 className="w-100">Project's I've worked on ... </h1>
+              <h1 className="w-100">Projects I've worked on ... </h1>
             </div>
             {
 
