@@ -26,7 +26,7 @@ class SimpleSlider extends Component {
       <Slider {...settings}>
 
         <div>
-          <img src={logo} />
+          <img className="hero" src={logo} />
 
           <aside>
 
