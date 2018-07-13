@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import homeIcon from "../home.png";
-import aboutIcon from "../user.png";
-import logo from "../profiler.jpg";
-import projects from "../folder.png";
-import blogIcon from "../blog.png";
+
+
+import logo from "../images/profiler.jpg";
+import homeIcon from "../images/home.png"; //include nav icons
+import aboutIcon from "../images/user.png";
+import blogIcon from "../images/blog.png";
+import projects from "../images/folder.png";
 import { push as Menu } from "react-burger-menu";
 
 class NavBar extends Component {

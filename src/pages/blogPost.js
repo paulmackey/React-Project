@@ -9,13 +9,13 @@ class BlogPost extends Component {
 
   constructor(props) {
     super(props);
-
     this.state = {
       loaded: false
     };
   }
 
   componentWillMount() {
+    console.log(this.props);
     let slug = this.props.match.params.slug;
     butter.post.retrieve(slug).then(resp => {
       this.setState({

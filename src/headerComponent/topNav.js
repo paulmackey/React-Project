@@ -1,10 +1,13 @@
 import React, { Component } from "react";
-import homeIcon from "../home.png";
-import aboutIcon from "../user.png";
-import projects from "../folder.png";
+
 import { Link } from "react-router-dom";
 import { NavLink } from 'react-router-dom'
-import blogIcon from "../blog.png";
+
+
+import homeIcon from "../images/home.png"; //include nav icons
+import aboutIcon from "../images/user.png";
+import blogIcon from "../images/blog.png";
+import projects from "../images/folder.png";
 
 class topNav extends Component {
 
