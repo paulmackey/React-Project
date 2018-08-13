@@ -37,7 +37,7 @@ class BlogHome extends Component {
   }
 
   render() {
-    //if (this.state.loaded) {
+    if (this.state.loaded) {
       return (
         <div className="wrapper about">
           <NavBar />
@@ -48,7 +48,7 @@ class BlogHome extends Component {
                 <h1 className="w-100">Blog Posts</h1>
               </div>
 
-                 {/* {
+                  {
                     this.state.resp.data.map(post => {
                     return (
                       <div className="col-sm-4">
@@ -75,7 +75,7 @@ class BlogHome extends Component {
                       </div>
                     );
                   })
-                } */}
+                } 
 
             </div>
           </div>
@@ -83,9 +83,9 @@ class BlogHome extends Component {
         </div>
         
       );
-    //} else {
-    //  return <div></div>;
-    //}
+    } else {
+      return <div></div>;
+    }
   }
 }
 
