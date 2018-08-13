@@ -1,5 +1,16 @@
 [
 	{
+		"title": "Lean BPI",
+		"description": "Helping you to streamline the processes throughout your entire organization, from the front office all the way to distribution.",
+		"url": "#",
+		"thumbnail": "../images/leanbpi.jpg",
+		"status": "Complete",
+				"colour" : "purple",
+		"gallery": [
+
+		]
+	},
+	{
 		"title": "Visit East Clare",
 		"description": "Central hub for businesses in East Clare to promote their business and events",
 		"url": "http://visitclare.net/",
