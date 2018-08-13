@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "../headerComponent/topNav.js";
+import Footer from "../footerComponent/footer.js";
 import Butter from "buttercms";
 import { Link } from "react-router-dom";
 import { Animated } from "react-animated-css"; //include animate.css
@@ -9,23 +10,19 @@ const butter = Butter("ba90a6c951de625d6bd4f9da7255f12cfd228ded");
 class BlogHome extends Component {
 
   constructor(props) {
-
     super(props);
     this.state = {
       loaded: false
     };
-
   }
 
   fetchPosts(page) {
-
     butter.post.list({ page: page, page_size: 10 }).then(resp => {
       this.setState({
         loaded: true,
         resp: resp.data
       });
     });
-
   }
 
   componentWillMount() {
@@ -40,7 +37,7 @@ class BlogHome extends Component {
   }
 
   render() {
-    if (this.state.loaded) {
+    //if (this.state.loaded) {
       return (
         <div className="wrapper about">
           <NavBar />
@@ -51,7 +48,7 @@ class BlogHome extends Component {
                 <h1 className="w-100">Blog Posts</h1>
               </div>
 
-                  {
+                 {/* {
                     this.state.resp.data.map(post => {
                     return (
                       <div className="col-sm-4">
@@ -78,15 +75,17 @@ class BlogHome extends Component {
                       </div>
                     );
                   })
-                }
+                } */}
 
             </div>
           </div>
+          <Footer />
         </div>
+        
       );
-    } else {
-      return <div></div>;
-    }
+    //} else {
+    //  return <div></div>;
+    //}
   }
 }
 

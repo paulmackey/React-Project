@@ -271,6 +271,16 @@ footer {
   bottom: 0;
 }
 
+.butter-icon {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.footer{
+  font-size: 17px;
+}
+
 /** Projects **/
 
 .author {
