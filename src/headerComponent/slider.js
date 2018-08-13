@@ -5,6 +5,7 @@ import logo from "../images/bg.jpg"; //include background logo
 import { Link } from "react-router-dom"; // need this for going to different links ie /projects or /about
 import homeIcon from "../images/home.png"; //include nav icons
 import aboutIcon from "../images/user.png";
+import scrollDown from "../images/down-arrow.png";
 import blogIcon from "../images/blog.png";
 import projects from "../images/folder.png";
 import { Animated } from "react-animated-css"; //inlude animate.css
@@ -68,7 +69,11 @@ class SimpleSlider extends Component {
                 <img src={blogIcon} /> Blog
             </Link>
 
+<div className="header_scroll">
+            <a href="#"><span className="scroll-down icon"><img src={scrollDown} /></span></a>
+            </div>
             </Animated>
+            
           </aside>
 
         </div>
