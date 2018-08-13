@@ -5,10 +5,8 @@
 		"url": "#",
 		"thumbnail": "../images/leanbpi.jpg",
 		"status": "Complete",
-				"colour" : "purple",
-		"gallery": [
-
-		]
+		"colour": "purple",
+		"gallery": []
 	},
 	{
 		"title": "Visit East Clare",
@@ -16,131 +14,106 @@
 		"url": "http://visitclare.net/",
 		"thumbnail": "../images/vec-logo.jpg",
 		"status": "Complete",
-				"colour" : "purple",
-		"gallery": [
-
-		]
+		"colour": "purple",
+		"gallery": []
 	},
-
 	{
 		"title": "Mr Binman",
 		"description": "An Irish owned waste recycling organisation servicing over 37000 household customers and 3500 commercial clients in Ireland.",
 		"url": "https://www.mrbinman.com/",
-	"thumbnail": "../images/mrbinman.png",
+		"thumbnail": "../images/mrbinman.png",
 		"status": "Complete",
-			"colour" : "purple",
-		"gallery": [
-		]
+		"colour": "purple",
+		"gallery": []
 	},
-
 	{
 		"title": "Ex-Demo Phones",
 		"description": "Seller of Used / New Demo phones",
 		"url": "http://exdemophones.com/",
-	"thumbnail": "../images/ex-demo-phones.jpg",
+		"thumbnail": "../images/ex-demo-phones.jpg",
 		"status": "Complete",
-		"colour" : "purple",
-		"gallery": [
-		]
+		"colour": "purple",
+		"gallery": []
 	},
-
 	{
 		"title": "Energy Change",
 		"description": "Custom E-Learning site tailored for any company",
 		"url": "https://www.energychange.ie/",
-	"thumbnail": "../images/LIT_Logo.png",
+		"thumbnail": "../images/LIT_Logo.png",
 		"status": "Complete",
-		"colour" : "purple",
-		"gallery": [
-		]
+		"colour": "purple",
+		"gallery": []
 	},
-
 	{
 		"title": "Switching Rooms",
 		"description": "Enables students to switch rooms",
 		"url": "https://www.switchingrooms.ie",
-	"thumbnail": "../images/switching-rooms.jpg",
+		"thumbnail": "../images/switching-rooms.jpg",
 		"status": "Complete",
-			"colour" : "purple",
-		"gallery": [
-		]
+		"colour": "purple",
+		"gallery": []
 	},
 	{
 		"title": "Complete Interiors",
 		"description": "Interior Design Specialists",
 		"url": "https://www.switchingrooms.ie",
-	"thumbnail": "../images/complete-interiors.jpg",
+		"thumbnail": "../images/complete-interiors.jpg",
 		"status": "Pending",
-		"colour" : "orange",
-		"gallery": [
-		]
+		"colour": "orange",
+		"gallery": []
 	},
-
 	{
 		"title": "VetCon",
 		"description": "Ireland's most exciting veterinary conference",
 		"url": "https://www.vetcon.ie/",
-	"thumbnail": "../images/vetcon-logo.png",
+		"thumbnail": "../images/vetcon-logo.png",
 		"status": "Completed",
-		"colour" : "purple",
-		"gallery": [
-		]
-	}
-	,
+		"colour": "purple",
+		"gallery": []
+	},
 	{
 		"title": "Casseo",
 		"description": "Casseo is a leading Project Management Company for Business Change and IT Initiatives",
 		"url": "https://www.casseo.com/",
-	"thumbnail": "../images/casseo-logo.jpg",
+		"thumbnail": "../images/casseo-logo.jpg",
 		"status": "Completed",
-		"colour" : "purple",
-		"gallery": [
-		]
-	}
-	,
+		"colour": "purple",
+		"gallery": []
+	},
 	{
 		"title": "ERS Recruitment",
 		"description": "ERS is a niche provider of Program/Project Management; Business Analysis & Full IT Stack contract & permanent recruitment services",
 		"url": "http://www.ersrecruitment.com/",
-	"thumbnail": "../images/ers-recruitment-logo.jpg",
+		"thumbnail": "../images/ers-recruitment-logo.jpg",
 		"status": "Completed",
-		"colour" : "purple",
-		"gallery": [
-		]
-	}
-	,
+		"colour": "purple",
+		"gallery": []
+	},
 	{
 		"title": "Construction Workers Skills Register",
 		"description": "The Construction Worker Skills Register encourages engagement in training and skills development within the building sector.",
 		"url": "https://www.constructionworkerskillsregister.ie/",
-	"thumbnail": "../images/cwsr-logo.jpg",
+		"thumbnail": "../images/cwsr-logo.jpg",
 		"status": "Completed",
-		"colour" : "purple",
-		"gallery": [
-		]
-	}
-	,
+		"colour": "purple",
+		"gallery": []
+	},
 	{
 		"title": "IPEYE2",
 		"description": "A cross-border exchange programme which gives new or aspiring entrepreneurs the chance to learn from experienced entrepreneurs running small businesses in other Participating Countries.",
 		"url": "http://www.ipeye2.eu/",
-	"thumbnail": "../images/ipeye2-logo.png",
+		"thumbnail": "../images/ipeye2-logo.png",
 		"status": "Completed",
-		"colour" : "purple",
-		"gallery": [
-		]
-	}
-	,
+		"colour": "purple",
+		"gallery": []
+	},
 	{
 		"title": "Loughmore Castleiney GAA",
 		"description": "Football / Hurling Club",
 		"url": "#",
-	"thumbnail": "../images/loughmore-logo.png",
+		"thumbnail": "../images/loughmore-logo.png",
 		"status": "Pending",
-		"colour" : "orange",
-		"gallery": [
-		]
+		"colour": "orange",
+		"gallery": []
 	}
-
-
 ]

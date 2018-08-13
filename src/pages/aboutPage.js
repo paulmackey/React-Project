@@ -6,7 +6,7 @@ class aboutPage extends Component {
     return (
 
       <div className="wrapper about">
-          <NavBar />
+        <NavBar />
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -16,12 +16,12 @@ class aboutPage extends Component {
             <div className="col-sm-12">
               <div className="well mt-5">
                 <div className="card p-3">
-                 
-                    <p>
-                      Web developer / Programmer @ Irish Web Headquarters based
-                      in Thurles Co. Tipperary
+
+                  <p>
+                    Web developer / Programmer @ Irish Web Headquarters based
+                    in Thurles Co. Tipperary
                     </p>
-                
+
                 </div>
               </div>
             </div>

@@ -16,12 +16,27 @@ p {
   font-size: 16px;
 }
 
-h1 {
+h1, h2 {
   font-family: Reem Kufi, sans-serif;
   font-size: 3rem;
   font-weight: 700;
   line-height: 3rem;
   margin-top: 150px;
+}
+
+.home h2 {
+  margin-top: 30px;
+  font-size: 3rem;
+  display: inline-block;
+}
+
+.project-page.view-all {
+  display: none;
+}
+
+.view-all {
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 #app {
@@ -36,9 +51,10 @@ h1 {
 
 /** Home page **/
 
-.hero{
-  min-width:100%;
+.hero {
+  min-width: 100%;
 }
+
 aside h1, aside h2, aside h3, aside p {
   color: #fff;
 }
@@ -63,7 +79,7 @@ aside {
 
 /** Home page **/
 
-.home p {
+.home .slick-slider p {
   font-size: 1.375rem;
   margin: 1.5rem 0;
   font-weight: 300;
@@ -277,7 +293,7 @@ footer {
   height: auto;
 }
 
-.footer{
+.footer {
   font-size: 17px;
 }
 
@@ -292,9 +308,9 @@ footer {
 .project-wrap .card {
   min-height: 350px;
   background: #fff;
-/* padding: 15px; */
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.29) !important;
-border-top: 4px solid #27AFD3;
+  /* padding: 15px; */
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.29) !important;
+  border-top: 4px solid #27AFD3;
 }
 
 .card-title {
@@ -302,10 +318,11 @@ border-top: 4px solid #27AFD3;
   font-weight: 700;
 }
 
-.card-body{
+.card-body {
   min-height: 200px;
   text-align: center;
 }
+
 .card-title a {
   color: #000;
   text-decoration: none !important;
@@ -399,7 +416,6 @@ border-top: 4px solid #27AFD3;
   top: 30px;
   transform: rotate(45deg);
 }
-
 
 /* ================ MEDIA QUERY - SIZE = 1024 ======================= */
 

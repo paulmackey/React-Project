@@ -48,14 +48,14 @@ class BlogHome extends Component {
                 <h1 className="w-100">Blog Posts</h1>
               </div>
 
-                  {
-                    this.state.resp.data.map(post => {
-                    return (
-                      <div className="col-sm-4">
+              {
+                this.state.resp.data.map(post => {
+                  return (
+                    <div className="col-sm-4">
                       <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
                         <div className="mt-5 project-wrap">
                           <div className="card shadow-lg">
-                            <img className="card-img-top" src={ post.featured_image }></img>
+                            <img className="card-img-top" src={post.featured_image}></img>
                             <div className="card-body">
                               <h4 className="card-title">  <Link to={`/post/${post.slug}`}>{post.title}</Link></h4>
                               <div className="author">By Paul Mackey on {post.published}</div>
@@ -65,23 +65,23 @@ class BlogHome extends Component {
                             </div>
                             <div className="card-footer text-right">
 
-                            <Link to={`/post/${post.slug}`}><button type="button" className="btn btn-info">Read More</button></Link>
+                              <Link to={`/post/${post.slug}`}><button type="button" className="btn btn-info">Read More</button></Link>
 
 
-                          </div>
+                            </div>
                           </div>
                         </div>
-                        </Animated>
-                      </div>
-                    );
-                  })
-                } 
+                      </Animated>
+                    </div>
+                  );
+                })
+              }
 
             </div>
           </div>
           <Footer />
         </div>
-        
+
       );
     } else {
       return <div></div>;
