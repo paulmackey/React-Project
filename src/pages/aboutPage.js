@@ -15,13 +15,13 @@ class aboutPage extends Component {
 
             <div className="col-sm-12">
               <div className="well mt-5">
-                <div className="card">
-                  <div className="card-body">
+                <div className="card p-3">
+                 
                     <p>
                       Web developer / Programmer @ Irish Web Headquarters based
                       in Thurles Co. Tipperary
                     </p>
-                  </div>
+                
                 </div>
               </div>
             </div>

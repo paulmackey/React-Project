@@ -25,7 +25,7 @@ class SimpleSlider extends Component {
     return (
       <Slider {...settings}>
 
-        <div>
+        <div className="hero-wrap">
           <img className="hero" src={logo} />
 
           <aside>

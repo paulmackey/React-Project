@@ -46,7 +46,7 @@
 
 	{
 		"title": "Switching Rooms",
-		"description": "Switching Rooms acts as an introductory agent for students to easily source accomodation in their new college area and allows our users to swap rooms with similar students heading in the opposite direction",
+		"description": "Enables students to switch rooms",
 		"url": "https://www.switchingrooms.ie",
 	"thumbnail": "../images/switching-rooms.jpg",
 		"status": "Complete",

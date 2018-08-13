@@ -6,6 +6,11 @@ import {Animated} from "react-animated-css"; //include animate.css
 class projectPage extends Component {
 
   render() {
+    var total=-1;
+    if (this.props.total>0) {
+total = this.props.total;
+    }
+    
     return (
       <div className="wrapper about">
       <NavBar />
@@ -17,16 +22,17 @@ class projectPage extends Component {
             </div>
             {
 
-              data.map(function(data) {
+
+              data.slice(0, total).map(function(data) {
 
               return (
                 <div className="col-sm-4">
                 <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
                   <div className="mt-5 project-wrap">
-                    <div className="card p-3 shadow-lg">
-                    <div className={'ribbon ribbon-top-right ' + data.colour}>
+                    <div className="card shadow-lg">
+                    {/* <div className={'ribbon ribbon-top-right ' + data.colour}>
                         <span className={data.colour}>{data.status} </span>
-                        </div>
+                        </div> */}
                       <img className="card-img-top py-5" src={ data.thumbnail }></img>
                       <div className="card-body">
                         <h3 className="card-title">{data.title}</h3>

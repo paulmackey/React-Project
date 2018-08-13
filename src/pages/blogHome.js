@@ -54,7 +54,7 @@ class BlogHome extends Component {
                       <div className="col-sm-4">
                       <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
                         <div className="mt-5 project-wrap">
-                          <div className="card p-3 shadow-lg">
+                          <div className="card shadow-lg">
                             <img className="card-img-top" src={ post.featured_image }></img>
                             <div className="card-body">
                               <h4 className="card-title">  <Link to={`/post/${post.slug}`}>{post.title}</Link></h4>
