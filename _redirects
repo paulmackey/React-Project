@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-https://paulmackey.netlify.com/* https://www.paulmackey.ie/:splat 301!
+https://paulmackey.ie* https://www.paulmackey.ie/:splat 301!
