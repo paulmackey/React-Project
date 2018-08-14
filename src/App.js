@@ -1,21 +1,48 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Loadable from 'react-loadable';
+import Footer from "./footerComponent/footer.js";
 
 // import { browserHistory } from "react-router";
-
-/** Pages **/ 
-import HomePage from "./pages/homePage.js";
-import BlogHome from "./pages/blogHome.js";
-import About from "./pages/aboutPage.js";
-import Projects from "./pages/projectPage.js";
-
-import BlogPost from "./pages/blogPost.js";
-
+ 
 /** Components  **/
 import NavBar from "./headerComponent/navBar.js";
 
 /** Include styles */
 import "./App.css";
+
+function Loading({ error }) {
+  if (error) {
+    return 'Oh nooess!';
+  } else {
+    return <h3>Loading...</h3>;
+  }
+}
+
+const HomePage = Loadable({
+  loader: () => import('./pages/homePage.js'),
+  loading: Loading
+});
+
+const About = Loadable({
+  loader: () => import('./pages/aboutPage.js'),
+  loading: Loading
+});
+
+const Projects = Loadable({
+  loader: () => import('./pages/projectPage.js'),
+  loading: Loading
+});
+
+const BlogHome = Loadable({
+  loader: () => import('./pages/blogHome.js'),
+  loading: Loading
+});
+
+const BlogPost = Loadable({
+  loader: () => import('./pages/blogPost.js'),
+  loading: Loading
+});
 
 class App extends Component {
   render() {
@@ -29,6 +56,7 @@ class App extends Component {
   
           <Route path="/blog" component={BlogHome} />
           <Route path="/post/:slug" component={BlogPost} />
+          <Footer />
         </div>
       </Router>
     );
