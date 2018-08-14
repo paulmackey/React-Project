@@ -26,26 +26,38 @@ class BlogHome extends Component {
   }
 
   componentWillMount() {
-    let page = this.props.match.page || 1;
+    //let page = this.props.match.page || 1;
+    let page = 1;
     this.fetchPosts(page);
   }
 
   componentWillReceiveProps(nextProps) {
     this.setState({ loaded: false });
-    let page = nextProps.match.page || 1;
+  //  let page = nextProps.match.page || 1;
+  let page = 1;
     this.fetchPosts(page);
   }
 
   render() {
     if (this.state.loaded) {
+
+      var total = -1;
+    var blogPage = "blog-page";
+    if (this.props.total > 0) {
+      total = this.props.total;
+      blogPage = "";
+    }
       return (
-        <div className="wrapper about">
+        <div className={'wrapper ' + blogPage}>
           <NavBar />
+          <section id="blog">
           <div className="container">
             <div className="row">
 
+
               <div className="col-sm-12">
-                <h1 className="w-100">Blog Posts</h1>
+                <h2>Blog Posts</h2>
+                <a className={'pull-right view-all ' + blogPage} href="/blog">View All</a>
               </div>
 
               {
@@ -53,7 +65,7 @@ class BlogHome extends Component {
                   return (
                     <div className="col-sm-4">
                       <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
-                        <div className="mt-5 project-wrap">
+                        <div className="mt-3 project-wrap">
                           <div className="card shadow-lg">
                             <img className="card-img-top" src={post.featured_image}></img>
                             <div className="card-body">
@@ -61,7 +73,7 @@ class BlogHome extends Component {
                               <div className="author">By Paul Mackey on {post.published}</div>
                               <p className="card-text">{post.summary}</p>
 
-
+ 
                             </div>
                             <div className="card-footer text-right">
 
@@ -79,6 +91,7 @@ class BlogHome extends Component {
 
             </div>
           </div>
+          </section>
           <Footer />
         </div>
 

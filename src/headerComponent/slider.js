@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Slider from "react-slick"; // Include slick slider
-import logo from "../images/bg.jpg"; //include background logo
+import logo from "../images/bg-2.jpg"; //include background logo
 import { Link } from "react-router-dom"; // need this for going to different links ie /projects or /about
 import homeIcon from "../images/home.png"; //include nav icons
 import aboutIcon from "../images/user.png";

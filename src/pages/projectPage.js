@@ -16,6 +16,7 @@ class projectPage extends Component {
     return (
       <div className="wrapper about">
         <NavBar />
+        <section id="projects">
         <div className="container">
           <div className="row">
 
@@ -30,7 +31,7 @@ class projectPage extends Component {
                 return (
                   <div className="col-sm-4">
                     <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
-                      <div className="mt-5 project-wrap">
+                      <div className="mt-3 project-wrap">
                         <div className="card shadow-lg">
                           {/* <div className={'ribbon ribbon-top-right ' + data.colour}>
                         <span className={data.colour}>{data.status} </span>
@@ -53,6 +54,7 @@ class projectPage extends Component {
 
           </div>
         </div>
+        </section>
       </div>
     );
   }

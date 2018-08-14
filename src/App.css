@@ -24,13 +24,20 @@ h1, h2 {
   margin-top: 150px;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/** Home page **/
+
 .home h2 {
   margin-top: 30px;
   font-size: 3rem;
   display: inline-block;
 }
 
-.project-page.view-all {
+.project-page.view-all, .blog-page.view-all, .blog-page .footer {
   display: none;
 }
 
@@ -49,8 +56,6 @@ h1, h2 {
   overflow: auto;
 }
 
-/** Home page **/
-
 .header_scroll {
   padding-top: 60px;
 }
@@ -59,6 +64,7 @@ h1, h2 {
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
+
 .icon {
   display: inline-block;
 }
@@ -89,8 +95,6 @@ aside {
   text-decoration: none;
 }
 
-/** Home page **/
-
 .home .slick-slider p {
   font-size: 1.375rem;
   margin: 1.5rem 0;
@@ -111,11 +115,38 @@ aside {
   padding: 0 .625rem;
 }
 
+#blog, #projects {
+  padding: 15px 0 60px 0;
+}
+
+.home #blog, .home #projects {
+  padding: 40px 0 85px 0;
+}
+
+.home #blog {
+  background: url('images/blog-bg.jpg') no-repeat center fixed;
+  background-size: auto auto;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 390px;
+}
+
+.home #blog h2 {
+  color: #fff;
+}
+
+.home #blog .view-all {
+  color: #fff;
+}
+
 .wrapper {
   font-weight: 100;
   font-size: 3em;
   margin-left: auto;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   -webkit-transition: top 4s ease;
   transition: top 4s ease;
   /* padding: 0 100; */
@@ -173,7 +204,8 @@ nav.top-nav #headerButtons {
 }
 
 .bm-burger-button {
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   width: 36px;
   height: 30px;
   left: 36px;
@@ -291,11 +323,23 @@ nav.top-nav #headerButtons {
 
 /** FOOTER **/
 
-
 footer {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.32);
+  background-color: rgb(51, 76, 106);
   height: 70px;
+}
+
+footer i.fa {
+  margin-left: 10px;
+  color: #fff;
+}
+
+.footer {
+  display: none;
+}
+
+.blog-page .footer {
+  display: block;
 }
 
 .butter-icon {
