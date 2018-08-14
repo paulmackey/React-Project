@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Loadable from 'react-loadable';
 import Footer from "./footerComponent/footer.js";
 
-// import { browserHistory } from "react-router";
- 
 /** Components  **/
 import NavBar from "./headerComponent/navBar.js";
 
@@ -13,7 +11,7 @@ import "./App.css";
 
 function Loading({ error }) {
   if (error) {
-    return 'Oh nooess!';
+    return 'Oh no!';
   } else {
     return <h3>Loading...</h3>;
   }
