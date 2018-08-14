@@ -365,7 +365,12 @@ footer i.fa {
   background: #fff;
   /* padding: 15px; */
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.29) !important;
-  border-top: 4px solid #27AFD3;
+  border-top: 4px solid #0889cb;
+}
+
+.btn-info {
+  background-color: #0889cb!important;
+  border-color: #0889cb!important;
 }
 
 .card-title {
