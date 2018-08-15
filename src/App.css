@@ -297,6 +297,9 @@ header {
   color: #fff;
 }
 
+.home .top{
+  display:none;
+}
 .top {
   background: #00a9f4;
   background: url('images/banner_bg.jpg');
