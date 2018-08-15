@@ -10,11 +10,11 @@ import NavBar from "./headerComponent/navBar.js";
 import "./App.css";
 
 function Loading({ error }) {
-  if (error) {
-    return 'Oh no!';
-  } else {
+  //if (error) {
+   // return 'Oh no!';
+  //} else {
     return <div className="loading">Loading&#8230;</div>;
-  }
+  //}
 }
 
 const HomePage = Loadable({
