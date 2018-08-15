@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TopNav from "../headerComponent/topNav.js";
 import data from "../data/projects.json";
 import { Animated } from "react-animated-css"; //include animate.css
+import ScrollAnimation from 'react-animate-on-scroll'; 
 
 class projectPage extends Component {
 
@@ -30,7 +31,7 @@ class projectPage extends Component {
               data.slice(0, total).map(function (data) {
                 return (
                   <div className="col-sm-4">
-                    <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+                   <ScrollAnimation animateIn="fadeInLeft" isVisible={true}>
                       <div className="mt-3 project-wrap">
                         <div className="card shadow-lg">
                           {/* <div className={'ribbon ribbon-top-right ' + data.colour}>
@@ -47,7 +48,7 @@ class projectPage extends Component {
                           </div>
                         </div>
                       </div>
-                    </Animated>
+                    </ScrollAnimation>
                   </div>
                 );
               })}

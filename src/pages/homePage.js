@@ -8,7 +8,7 @@ class HomePage extends Component {
   render() {
     return (
       <div className="home">
-    
+     
         <SimpleSlider />
 
         <ProjectPage total="3" title="Projects"/>

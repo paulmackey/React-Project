@@ -5,7 +5,7 @@ import butterCMSIcon from "../images/butterCMSIcon.png";
 import Butter from "buttercms";
 import { Link } from "react-router-dom";
 import { Animated } from "react-animated-css"; //include animate.css
-
+import ScrollAnimation from 'react-animate-on-scroll'; 
 const butter = Butter("ba90a6c951de625d6bd4f9da7255f12cfd228ded");
 
 class BlogHome extends Component {
@@ -65,7 +65,7 @@ class BlogHome extends Component {
                   this.state.resp.data.map(post => {
                     return (
                       <div className="col-sm-4">
-                        <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+                        <ScrollAnimation animateIn="fadeInLeft" isVisible={true}>
                           <div className="mt-3 project-wrap">
                             <div className="card shadow-lg">
                               <img className="card-img-top" src={post.featured_image}></img>
@@ -84,7 +84,7 @@ class BlogHome extends Component {
                               </div>
                             </div>
                           </div>
-                        </Animated>
+                        </ScrollAnimation>
                       </div>
                     );
                   })
