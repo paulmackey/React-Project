@@ -13,7 +13,7 @@ function Loading({ error }) {
   if (error) {
     return 'Oh no!';
   } else {
-    return <h3>Loading...</h3>;
+    return <div className="loading">Loading&#8230;</div>;
   }
 }
 
@@ -54,7 +54,7 @@ class App extends Component {
   
           <Route path="/blog" component={BlogHome} />
           <Route path="/post/:slug" component={BlogPost} />
-          <Footer />
+           <Footer /> 
         </div>
       </Router>
     );

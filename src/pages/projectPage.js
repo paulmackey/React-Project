@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBar from "../headerComponent/topNav.js";
+import TopNav from "../headerComponent/topNav.js";
 import data from "../data/projects.json";
 import { Animated } from "react-animated-css"; //include animate.css
 
@@ -15,7 +15,7 @@ class projectPage extends Component {
 
     return (
       <div className="wrapper about">
-        <NavBar />
+        <TopNav />
         <section id="projects">
         <div className="container">
           <div className="row">
