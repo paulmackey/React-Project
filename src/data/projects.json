@@ -1,8 +1,17 @@
 [
 	{
+		"title": "Bumpey",
+		"description": "Bumpey eliminates queues at venues using mobile technology. Increase sales and customer satisfaction by using Bumpey.",
+		"url": "http://bumpey.net/",
+		"thumbnail": "../images/bumpey.png",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
 		"title": "Lean BPI",
 		"description": "Helping you to streamline the processes throughout your entire organization, from the front office all the way to distribution.",
-		"url": "#",
+		"url": "https://www.leanbpi.ie/",
 		"thumbnail": "../images/leanbpi.jpg",
 		"status": "Complete",
 		"colour": "purple",
