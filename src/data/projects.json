@@ -9,6 +9,15 @@
 		"gallery": []
 	},
 	{
+		"title": "NTDC",
+		"description": "North Tipperary Development Company (NTDC) is a not for profit, community focused local development organisation, providing a wide range of services in North Tipperary.",
+		"url": "http://www.ntdc.ie",
+		"thumbnail": "../images/ntdc.png",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
 		"title": "Lean BPI",
 		"description": "Helping you to streamline the processes throughout your entire organization, from the front office all the way to distribution.",
 		"url": "https://www.leanbpi.ie/",
