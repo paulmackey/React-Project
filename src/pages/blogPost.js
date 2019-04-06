@@ -31,7 +31,7 @@ class BlogPost extends Component {
       const post = this.state.post;
 
       return (
-        <div className="wrapper about">
+        <div className="wrapper single">
             <NavBar />
           <div className="container">
             <div className="row">

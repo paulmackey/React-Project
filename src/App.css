@@ -8,7 +8,8 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 body {
-  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-family: 'Cabin', sans-serif;
   background: #f6f6f6;
 }
 
@@ -16,9 +17,18 @@ p {
   font-size: 16px;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+
+h2, h3 {
+  font-weight: 500;
+}
+
 h1, h2 {
-  font-family: Reem Kufi, sans-serif;
-  font-size: 3rem;
+  /* font-family: Reem Kufi, sans-serif; */
+  /* font-size: 3rem; */
   font-weight: 700;
   line-height: 3rem;
   margin-top: 150px;
@@ -271,16 +281,49 @@ aside {
 
 .wrapper {
   font-weight: 100;
-  font-size: 3em;
+  font-size: 16px;
   margin-left: auto;
   /* margin-bottom: 40px; */
   -webkit-transition: top 4s ease;
   transition: top 4s ease;
   /* padding: 0 100; */
   color: #000;
-  
+
 }
 
+/** SINGLE POST **/
+.single .card-body{
+  text-align: left;
+}
+
+
+/** ABOUT **/
+
+.mainDetails {
+  padding: 25px 35px;
+  border-bottom: 2px solid #0787c8;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#mainArea section{
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#mainArea section:last-child{
+  border-bottom:0;
+}
+
+#mainArea article{
+  padding-bottom:20px;
+}
+
+.sectionTitle h3,.sectionContent h4{
+font-size: 24px;
+}
 /** HEADER **/
 
 .logo {
@@ -306,6 +349,7 @@ header {
   box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.19);
   width: 100%;
   z-index: 999;
+  font-size: 3em;
   position: fixed;
 }
 

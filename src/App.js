@@ -10,11 +10,7 @@ import NavBar from "./headerComponent/navBar.js";
 import "./App.css";
 
 function Loading({ error }) {
-  //if (error) {
-   // return 'Oh no!';
-  //} else {
     return <div className="loading">Loading&#8230;</div>;
-  //}
 }
 
 const HomePage = Loadable({
@@ -51,10 +47,10 @@ class App extends Component {
           <Route name="home" exact path="/" component={HomePage} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
-  
+
           <Route path="/blog" component={BlogHome} />
           <Route path="/post/:slug" component={BlogPost} />
-           <Footer /> 
+           <Footer />
         </div>
       </Router>
     );
