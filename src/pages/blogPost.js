@@ -42,7 +42,7 @@ class BlogPost extends Component {
               </div>
 
               <div className="col-sm-12">
-                <div className="well mt-5">
+                <div className="well mt-2">
                   <div className="card">
                     <div className="card-body">
                       <p>

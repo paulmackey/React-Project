@@ -5,13 +5,6 @@ class aboutPage extends Component {
   render() {
     return (
 
-
-
-
-
-
-
-
 <div className="wrapper about">
 	<NavBar />
 	<div className="container">

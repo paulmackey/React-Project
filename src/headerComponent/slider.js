@@ -33,8 +33,8 @@ class SimpleSlider extends Component {
 
             <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
               <h1 className="mt-3">Paul Mackey</h1>
-              <p>Web Developer</p>
-              <p className="">Irish Web Headquarters</p>
+              <p>Software Engineer</p>
+              <p className=""></p>
 
               <div className="social-icons">
                 <a
@@ -73,7 +73,7 @@ class SimpleSlider extends Component {
             <a href="#"><span className="scroll-down icon"><img src={scrollDown} /></span></a>
             </div>
             </Animated>
-            
+
           </aside>
 
         </div>
