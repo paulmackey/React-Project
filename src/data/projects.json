@@ -1,5 +1,14 @@
 [
 	{
+		"title": "ICT Skillnet",
+		"description": "Technology Ireland ICT Skillnet is a network of companies who collaborate to address skills needs within the technology sector.",
+		"url": "https://www.ictskillnet.ie",
+		"thumbnail": "../images/ict-skillnet-logo.jpg",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
 		"title": "Bumpey",
 		"description": "Bumpey eliminates queues at venues using mobile technology. Increase sales and customer satisfaction by using Bumpey.",
 		"url": "http://bumpey.net/",

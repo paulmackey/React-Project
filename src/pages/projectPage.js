@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import TopNav from "../headerComponent/topNav.js";
 import data from "../data/projects.json";
 import { Animated } from "react-animated-css"; //include animate.css
-import ScrollAnimation from 'react-animate-on-scroll'; 
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class projectPage extends Component {
 
@@ -44,7 +44,7 @@ class projectPage extends Component {
 
                           </div>
                           <div className="card-footer text-right">
-                            <a className="btn btn-info" href={data.url}>Visit Site</a>
+                            <a target="_blank" className="btn btn-info" href={data.url}>Visit Site</a>
                           </div>
                         </div>
                       </div>
