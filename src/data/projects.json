@@ -27,6 +27,51 @@
 		"gallery": []
 	},
 	{
+		"title": "Wee Wonders",
+		"description": "The Wee Wonders British Championships is a golf tournament for juniors in the UK & Ireland",
+		"url": "https://www.weewondersgolf.com",
+		"thumbnail": "../images/wee-wonders.png",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Clean Wheelie Bins",
+		"description": "Bin Cleaning service available to residents in Limerick suburbs, East Clare, Ennis and North Tipperary",
+		"url": "https://www.cleanwheeliebins.com",
+		"thumbnail": "../images/clean-wheelie-bins.jpg",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Restaurant & Hospitality Skillnet",
+		"description": "Restaurant & Hospitality Skillnet focuses on supporting those in employment within the Restaurant and Hospitality Industry.",
+		"url": "https://www.rhskillnet.ie/",
+		"thumbnail": "../images/rh-skillnet.png",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Mid West Physiotherapy",
+		"description": "Mid West Physiotherapy is a private chartered physiotherapy practice located in Castletroy, Limerick.",
+		"url": "https://www.midwestphysio.ie",
+		"thumbnail": "../images/mid-west.gif",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Slí Dála",
+		"description": "Situated on the edge of Roscrea Heritage Town Slidala provides a warm welcome for those looking for accommodation in Roscrea",
+		"url": "https://www.slidala.com",
+		"thumbnail": "../images/sli-dala.jpg",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
 		"title": "Lean BPI",
 		"description": "Helping you to streamline the processes throughout your entire organization, from the front office all the way to distribution.",
 		"url": "https://www.leanbpi.ie/",
