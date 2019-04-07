@@ -344,8 +344,8 @@ header {
   display:none;
 }
 .top {
-  background: #00a9f4;
-  background: url('images/banner_bg.jpg');
+  background: #0889cb;
+  /* background: url('images/banner_bg.jpg'); */
   box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.19);
   width: 100%;
   z-index: 999;
