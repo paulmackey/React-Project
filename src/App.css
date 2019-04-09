@@ -301,6 +301,27 @@ aside {
 }
 
 
+/** CONTACT FORM **/ 
+form{
+  padding:30px;
+}
+
+textarea{
+  border-radius:0!important;
+}
+input[type=text],input[type=email]{
+  height:40px;
+  border-radius:0;
+}
+
+.mailme a{
+  color:#000;
+  text-decoration:none;
+}
+.mailme i{
+  margin-right:7px;
+}
+
 /** ABOUT **/
 
 .mainDetails {
