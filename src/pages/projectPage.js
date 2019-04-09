@@ -15,7 +15,7 @@ class projectPage extends Component {
     }
 
     return (
-      <div className="wrapper about">
+      <div className="wrapper about_">
         <TopNav />
         <section id="projects">
         <div className="container">
