@@ -28,7 +28,7 @@ return (
          </div>
       </div>
       <div className="col-sm-6">
-         <form action="/success" className="form-horizontal" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+         <form action="/page/success" className="form-horizontal" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contact" />
             <p class="hidden" hidden>
                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
