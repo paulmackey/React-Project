@@ -35,15 +35,15 @@ return (
             </p>
             <div className="form-group">
                <label>Your Name </label>
-               <input className="form-control" type="text" name="name" />
+               <input className="form-control" type="text" name="name" required/>
             </div>
             <div className="form-group">
                <label>Your Email</label>
-               <input className="form-control" type="email" name="email" />
+               <input className="form-control" type="email" name="email" required/>
             </div>
             <div className="form-group">
                <label>Message</label>
-               <textarea className="form-control" name="message"></textarea>
+               <textarea className="form-control" name="message" required></textarea>
             </div>
             <div className="form-group">
                <button className="btn btn-info" type="submit">Send</button>
