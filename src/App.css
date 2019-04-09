@@ -291,7 +291,7 @@ aside {
 
 }
 
-.wrapper.single{
+.wrapper.single,.wrapper.about{
   margin-bottom: 100px;
 }
 

@@ -5,7 +5,7 @@ import butterCMSIcon from "../images/butterCMSIcon.png";
 import Butter from "buttercms";
 import { Link } from "react-router-dom";
 import { Animated } from "react-animated-css"; //include animate.css
-import ScrollAnimation from 'react-animate-on-scroll'; 
+import ScrollAnimation from 'react-animate-on-scroll';
 const butter = Butter("ba90a6c951de625d6bd4f9da7255f12cfd228ded");
 
 class BlogHome extends Component {
@@ -57,7 +57,7 @@ class BlogHome extends Component {
 
 
                 <div className="col-sm-12">
-                  <h2>Blog Posts</h2>
+                  <h2 class="pull-left">Blog Posts</h2>
                   <a className={'pull-right view-all ' + blogPage} href="/blog">View All</a>
                 </div>
 

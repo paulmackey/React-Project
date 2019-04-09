@@ -22,7 +22,7 @@ class projectPage extends Component {
           <div className="row">
 
             <div className="col-sm-12">
-              <h2>Projects</h2>
+              <h2 class="pull-left">Projects</h2>
               <a className={'pull-right view-all ' + projectPage} href="/projects">View All</a>
 
             </div>
