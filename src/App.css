@@ -291,6 +291,10 @@ aside {
 
 }
 
+.wrapper.single{
+  margin-bottom: 100px;
+}
+
 /** SINGLE POST **/
 .single .card-body{
   text-align: left;
