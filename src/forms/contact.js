@@ -9,7 +9,6 @@ return (
       <input type="email" name="email" />
       <textarea name="message"></textarea>
     </form>
-
    <div className="row flex">
       <div className="col-sm-6">
          <h3 className="text-center">Get in touch</h3>
@@ -33,7 +32,7 @@ return (
          </div>
       </div>
       <div className="col-sm-6">
-         <form action="" className="form-horizontal" name="contact" method="POST">
+         <form action="" className="form-horizontal" netlify-honeypot="bot-field" name="contact" method="POST" data-netlify="true">
          <input type="hidden" name="form-name" value="contact" />
             <p class="hidden" hidden>
                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
