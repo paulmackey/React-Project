@@ -1,14 +1,10 @@
+
+
 import React, { Component } from "react";
 class contactForm extends Component {
 render() {
 return (
 <div>
-
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
-    </form>
    <div className="row flex">
       <div className="col-sm-6">
          <h3 className="text-center">Get in touch</h3>
@@ -32,8 +28,8 @@ return (
          </div>
       </div>
       <div className="col-sm-6">
-         <form action="" className="form-horizontal" netlify-honeypot="bot-field" name="contact" method="POST" data-netlify="true">
-         <input type="hidden" name="form-name" value="contact" />
+         <form action="/page/about" className="form-horizontal" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
             <p class="hidden" hidden>
                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
             </p>
