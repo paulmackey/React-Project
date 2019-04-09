@@ -1,0 +1,191 @@
+[
+	{
+		"title": "ICT Skillnet",
+		"description": "Technology Ireland ICT Skillnet is a network of companies who collaborate to address skills needs within the technology sector.",
+		"url": "https://www.ictskillnet.ie",
+		"thumbnail": "../images/ict-skillnet-logo.jpg",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Bumpey",
+		"description": "Bumpey eliminates queues at venues using mobile technology. Increase sales and customer satisfaction by using Bumpey.",
+		"url": "http://bumpey.net/",
+		"thumbnail": "../images/bumpey.png",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "NTDC",
+		"description": "North Tipperary Development Company (NTDC) is a not for profit, community focused local development organisation, providing a wide range of services in North Tipperary.",
+		"url": "http://www.ntdc.ie",
+		"thumbnail": "../images/ntdc.png",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Wee Wonders",
+		"description": "The Wee Wonders British Championships is a golf tournament for juniors in the UK & Ireland",
+		"url": "https://www.weewondersgolf.com",
+		"thumbnail": "../images/wee-wonders.png",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Clean Wheelie Bins",
+		"description": "Bin Cleaning service available to residents in Limerick suburbs, East Clare, Ennis and North Tipperary",
+		"url": "https://www.cleanwheeliebins.com",
+		"thumbnail": "../images/clean-wheelie-bins.jpg",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Restaurant & Hospitality Skillnet",
+		"description": "Restaurant & Hospitality Skillnet focuses on supporting those in employment within the Restaurant and Hospitality Industry.",
+		"url": "https://www.rhskillnet.ie/",
+		"thumbnail": "../images/rh-skillnet.png",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Mid West Physiotherapy",
+		"description": "Mid West Physiotherapy is a private chartered physiotherapy practice located in Castletroy, Limerick.",
+		"url": "https://www.midwestphysio.ie",
+		"thumbnail": "../images/mid-west.gif",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Slí Dála",
+		"description": "Situated on the edge of Roscrea Heritage Town Slidala provides a warm welcome for those looking for accommodation in Roscrea",
+		"url": "https://www.slidala.com",
+		"thumbnail": "../images/sli-dala.jpg",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Lean BPI",
+		"description": "Helping you to streamline the processes throughout your entire organization, from the front office all the way to distribution.",
+		"url": "https://www.leanbpi.ie/",
+		"thumbnail": "../images/leanbpi.jpg",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Visit East Clare",
+		"description": "Central hub for businesses in East Clare to promote their business and events",
+		"url": "http://visitclare.net/",
+		"thumbnail": "../images/vec-logo.jpg",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Mr Binman",
+		"description": "An Irish owned waste recycling organisation servicing over 37000 household customers and 3500 commercial clients in Ireland.",
+		"url": "https://www.mrbinman.com/",
+		"thumbnail": "../images/mrbinman.png",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Ex-Demo Phones",
+		"description": "Seller of Used / New Demo phones",
+		"url": "http://exdemophones.com/",
+		"thumbnail": "../images/ex-demo-phones.jpg",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Energy Change",
+		"description": "Custom E-Learning site tailored for any company",
+		"url": "https://www.energychange.ie/",
+		"thumbnail": "../images/LIT_Logo.png",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Switching Rooms",
+		"description": "Enables students to switch rooms",
+		"url": "https://www.switchingrooms.ie",
+		"thumbnail": "../images/switching-rooms.jpg",
+		"status": "Complete",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Complete Interiors",
+		"description": "Interior Design Specialists",
+		"url": "https://www.switchingrooms.ie",
+		"thumbnail": "../images/complete-interiors.jpg",
+		"status": "Pending",
+		"colour": "orange",
+		"gallery": []
+	},
+	{
+		"title": "VetCon",
+		"description": "Ireland's most exciting veterinary conference",
+		"url": "https://www.vetcon.ie/",
+		"thumbnail": "../images/vetcon-logo.png",
+		"status": "Completed",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Casseo",
+		"description": "Casseo is a leading Project Management Company for Business Change and IT Initiatives",
+		"url": "https://www.casseo.com/",
+		"thumbnail": "../images/casseo-logo.jpg",
+		"status": "Completed",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "ERS Recruitment",
+		"description": "ERS is a niche provider of Program/Project Management; Business Analysis & Full IT Stack contract & permanent recruitment services",
+		"url": "http://www.ersrecruitment.com/",
+		"thumbnail": "../images/ers-recruitment-logo.jpg",
+		"status": "Completed",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Construction Workers Skills Register",
+		"description": "The Construction Worker Skills Register encourages engagement in training and skills development within the building sector.",
+		"url": "https://www.constructionworkerskillsregister.ie/",
+		"thumbnail": "../images/cwsr-logo.jpg",
+		"status": "Completed",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "IPEYE2",
+		"description": "A cross-border exchange programme which gives new or aspiring entrepreneurs the chance to learn from experienced entrepreneurs running small businesses in other Participating Countries.",
+		"url": "http://www.ipeye2.eu/",
+		"thumbnail": "../images/ipeye2-logo.png",
+		"status": "Completed",
+		"colour": "purple",
+		"gallery": []
+	},
+	{
+		"title": "Loughmore Castleiney GAA",
+		"description": "Football / Hurling Club",
+		"url": "#",
+		"thumbnail": "../images/loughmore-logo.png",
+		"status": "Pending",
+		"colour": "orange",
+		"gallery": []
+	}
+]
