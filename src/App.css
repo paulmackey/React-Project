@@ -12,6 +12,10 @@ body {
   font-family: 'Cabin', sans-serif;
   background: #f6f6f6;
 }
+img {
+    max-width: 100%;
+    height: auto;
+  }
 
 p {
   font-size: 16px;
@@ -301,7 +305,7 @@ aside {
 }
 
 
-/** CONTACT FORM **/ 
+/** CONTACT FORM **/
 form{
   padding:30px;
 }
