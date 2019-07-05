@@ -34,6 +34,7 @@ class SimpleSlider extends Component {
             <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
               <h1 className="mt-3">Paul Mackey</h1>
               <p>Software Engineer</p>
+              <p>DevEire</p>
               <p className=""></p>
 
               <div className="social-icons">
