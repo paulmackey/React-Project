@@ -430,7 +430,7 @@ nav.top-nav #headerButtons {
 
 .bm-burger-button {
   /* position: fixed; */
-  position: absolute;
+  position: fixed;
   width: 36px;
   height: 30px;
   left: 36px;
