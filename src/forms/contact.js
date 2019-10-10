@@ -46,7 +46,7 @@ return (
                <textarea className="form-control" name="message" required></textarea>
             </div>
             <div className="form-group">
-               <button className="btn btn-info" type="submit">Send</button>
+               <button className="btn btn-info" type="submit">Send <span className="underline"></span></button>
             </div>
          </form>
       </div>
