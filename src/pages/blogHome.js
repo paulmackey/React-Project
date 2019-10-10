@@ -78,7 +78,7 @@ class BlogHome extends Component {
                               </div>
                               <div className="card-footer text-right">
 
-                                <Link to={`/post/${post.slug}`}><button type="button" className="btn btn-info">Read More</button></Link>
+                                <Link to={`/post/${post.slug}`}><button type="button" className="btn btn-info">Read More <span className="underline"></span></button></Link>
 
 
                               </div>

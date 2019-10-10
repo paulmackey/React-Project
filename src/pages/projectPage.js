@@ -44,7 +44,7 @@ class projectPage extends Component {
 
                           </div>
                           <div className="card-footer text-right">
-                            <a target="_blank" className="btn btn-info" href={data.url}>Visit Site</a>
+                            <a target="_blank" className="btn btn-info" href={data.url}>Visit Site <span className="underline"></span></a>
                           </div>
                         </div>
                       </div>

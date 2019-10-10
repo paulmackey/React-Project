@@ -603,6 +603,48 @@ footer i.fa {
 .btn-info {
   background-color: #0889cb!important;
   border-color: #0889cb!important;
+  padding: 8px 60px 8px 8px;
+  border-radius: 0;
+  position: relative;
+}
+
+a.btn.btn-info:after {
+  content: "";
+  height: 2px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  width: 30px;
+  top:50%;
+  background: #fff;
+  transition: all;
+}
+
+a.btn.btn-info:hover span:after { 
+  animation: underline-animated 1s infinite;
+  width: auto;
+  animation-delay: -.5s;
+}
+
+.underline { 
+  position: absolute;
+  right: .5rem;
+  top: 50%;
+  width: 30px;
+}
+
+@keyframes underline-animated {
+  0% {
+    right: 100%;
+  }
+  50% {
+    right: 0;
+    left: 0;
+  }
+  100% {
+    right: 0;
+    left: 100%;
+  }
 }
 
 .card-title {
