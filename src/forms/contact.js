@@ -16,12 +16,6 @@ return (
             <a
                target="_blank"
                rel="noopener noreferrer"
-               href="https://github.com/paulmackey">
-            <i className="fa fa-github text-dark" />
-            </a>
-            <a
-               target="_blank"
-               rel="noopener noreferrer"
                href="https://www.linkedin.com/in/paul-mackey-25543098/">
             <i className="fa fa-linkedin text-dark" />
             </a>
