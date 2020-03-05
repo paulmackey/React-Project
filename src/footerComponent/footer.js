@@ -8,10 +8,6 @@ class footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 text-right">
-              <a target="_blank" href="https://github.com/paulmackey">
-                <i className="fa fa-2x fa-github"></i>
-              </a>
-      
               <a target="_blank" href="https://www.linkedin.com/in/paul-mackey-25543098/">
                 <i className="fa fa-2x fa-linkedin"></i>
               </a>

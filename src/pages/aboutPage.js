@@ -23,9 +23,8 @@ class aboutPage extends Component {
 							<div id="contactDetails" className="pull-right">
 								<ul>
 									<li>e:
-										<a href="mailto:mackey.paul.23@gmail.com" target="_blank"> mackey.paul.23@gmail.com</a>
+										<a href="mailto:pmackey@deveire.com" target="_blank">pmackey@deveire.com</a>
 									</li>
-									<li>m: 0870662917</li>
 								</ul>
 							</div>
 							<div className="clear"></div>

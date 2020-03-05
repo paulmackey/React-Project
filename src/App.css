@@ -231,7 +231,8 @@ pre {
 }
 
 .hero {
-
+  width: 100%;
+  object-fit: cover;
   max-width: none;
 }
 

@@ -57,7 +57,7 @@ class BlogHome extends Component {
 
 
                 <div className="col-sm-12">
-                  <h2 class="pull-left">Blog Posts</h2>
+                  <h2 class="pull-left">Recent Posts</h2>
                   <a className={'pull-right view-all ' + blogPage} href="/blog">View All</a>
                 </div>
 
