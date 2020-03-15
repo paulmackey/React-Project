@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import NavBar from "../headerComponent/topNav.js";
 import butterCMSIcon from "../images/butterCMSIcon.png";
-
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
 import Butter from "buttercms";
 import { Link } from "react-router-dom";
 import { Animated } from "react-animated-css"; //include animate.css
@@ -63,11 +64,19 @@ class BlogHome extends Component {
 
                 {
                   this.state.resp.data.map(post => {
+
+                    var category = "Article"
+                    if(post.categories[0]){
+                    var category = post.categories[0].name
+                    }
                     return (
                       <div className="col-sm-4">
                         <ScrollAnimation animateIn="fadeInLeft" isVisible={true}>
                           <div className="mt-3 project-wrap">
                             <div className="card shadow-lg">
+                            <div className={'ribbon ribbon-top-right orange'}>
+                        <span className='orange'>{category}</span>
+                        </div>
                               <img className="card-img-top" src={post.featured_image}></img>
                               <div className="card-body">
                                 <h4 className="card-title">  <Link to={`/post/${post.slug}`}>{post.title}</Link></h4>
@@ -78,9 +87,8 @@ class BlogHome extends Component {
                               </div>
                               <div className="card-footer text-right">
 
-                                <Link to={`/post/${post.slug}`}><button type="button" className="btn btn-info">Read More <span className="underline"></span></button></Link>
-
-
+                                <Link to={`/post/${post.slug}`}>
+                                <AwesomeButton type="primary">Read More</AwesomeButton></Link>
                               </div>
                             </div>
                           </div>

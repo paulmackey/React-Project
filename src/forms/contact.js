@@ -1,6 +1,9 @@
 
 
 import React, { Component } from "react";
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
+
 class contactForm extends Component {
 render() {
 return (
@@ -40,7 +43,7 @@ return (
                <textarea className="form-control" name="message" required></textarea>
             </div>
             <div className="form-group">
-               <button className="btn btn-info" type="submit">Send <span className="underline"></span></button>
+            <AwesomeButton type="primary">Send</AwesomeButton>
             </div>
          </form>
       </div>

@@ -3,6 +3,8 @@ import TopNav from "../headerComponent/topNav.js";
 import data from "../data/projects.json";
 import { Animated } from "react-animated-css"; //include animate.css
 import ScrollAnimation from 'react-animate-on-scroll';
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
 
 class projectPage extends Component {
 
@@ -34,9 +36,9 @@ class projectPage extends Component {
                    <ScrollAnimation animateIn="fadeInLeft" isVisible={true}>
                       <div className="mt-3 project-wrap">
                         <div className="card shadow-lg">
-                          {/* <div className={'ribbon ribbon-top-right ' + data.colour}>
-                        <span className={data.colour}>{data.status} </span>
-                        </div> */}
+                          {<div className={'ribbon ribbon-top-right orange'}>
+                        <span className='orange'>{data.status}</span>
+                        </div>}
                           <img className="card-img-top py-5" src={data.thumbnail}></img>
                           <div className="card-body">
                             <h3 className="card-title">{data.title}</h3>
@@ -44,7 +46,7 @@ class projectPage extends Component {
 
                           </div>
                           <div className="card-footer text-right">
-                            <a target="_blank" className="btn btn-info" href={data.url}>Visit Site <span className="underline"></span></a>
+                          <AwesomeButton type="primary" target="_blank" href={data.url}>Visit Site <span className="underline"></span></AwesomeButton>
                           </div>
                         </div>
                       </div>
