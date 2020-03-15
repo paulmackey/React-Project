@@ -234,6 +234,7 @@ pre {
   width: 100%;
   object-fit: cover;
   max-width: none;
+  min-height: 400px;
 }
 
 aside h1, aside h2, aside h3, aside p {
