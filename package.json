@@ -11,6 +11,7 @@
     "react": "^16.4.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-animated-css": "^1.0.4",
+    "react-awesome-button": "^6.5.1",
     "react-burger-menu": "^2.5.2",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
