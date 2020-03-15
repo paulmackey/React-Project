@@ -10,7 +10,7 @@ return (
          <h3 className="text-center">Get in touch</h3>
          <h6 className="text-center my-4">Project suggestions, feedback or just to say hello..</h6>
          <p className="text-center mailme">
-            <a href="mailto:mackey.paul.23@gmail.com"><i className="fa fa-envelope text-dark"></i>Mackey.paul.23@gmail.com</a>
+            <a href="pmackey@deveire.com"><i className="fa fa-envelope text-dark"></i>pmackey@deveire.com</a>
          </p>
          <div className="social-icons text-center">
             <a
