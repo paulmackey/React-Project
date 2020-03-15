@@ -62,9 +62,9 @@ class SimpleSlider extends Component {
                 <img src={blogIcon} /> Blog
             </Link>
 
-<div className="header_scroll">
+            { /*<div className="header_scroll">
             <a href="#"><span className="scroll-down icon"><img src={scrollDown} /></span></a>
-            </div>
+            </div>*/}
             </Animated>
 
           </aside>
